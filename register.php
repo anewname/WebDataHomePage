@@ -143,6 +143,7 @@ if (! empty ( $_POST )) {
 								echo 'sorry, something wrong：',mysql_error(),'<br />';
 							}
 						}
+						mysqli_close($dbc);
 					}
 					?>
 				</div>
